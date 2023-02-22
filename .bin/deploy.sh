@@ -11,9 +11,9 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m "deploy"
+git branch -M main
 git remote add origin git@github.com:Pancake-Q/node-web.git
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:Pancake-Q/node-web.git main
 
 cd -
